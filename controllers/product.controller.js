@@ -1,9 +1,31 @@
-const { Product, PriceChange, RegulatoryLimit, Alert } = require('../models');
+const { Product, PriceChange, RegulatoryLimit, Alert, Sale } = require('../models');
 
-// Create a new product
+// Create a new product and trigger an alert if the price exceeds the regulatory limit
 const createProduct = async (req, res) => {
     try {
-        const product = await Product.create(req.body);
+        const { Price, CategoryID } = req.body;
+
+        // Check if the price exceeds the regulatory limit for the given category
+        const regulatoryLimit = await RegulatoryLimit.findOne({ where: { ProductCategoryID: CategoryID } });
+        let product;
+
+        if (regulatoryLimit && Price > regulatoryLimit.MaxPrice) {
+            // First, create the product
+            product = await Product.create(req.body);
+
+            // Create an alert for the product price exceeding the regulatory limit
+            await Alert.create({
+                ProductID: product.ProductID,  // Ensure the ProductID is linked here
+                AlertType: 'PriceExceeded',
+                AlertDateTime: new Date(),
+                               Status: 'Pending'
+            });
+            console.log('Alert created: Price exceeds regulatory limit');
+        } else {
+            // If no alert is needed, just create the product
+            product = await Product.create(req.body);
+        }
+
         res.status(201).json({ message: 'Product added', product });
     } catch (err) {
         console.error('Error creating product:', err);
@@ -22,7 +44,7 @@ const getAllProducts = async (req, res) => {
     }
 };
 
-// Update product price, log change, and check against regulatory limit
+// Update product price, log the price change, and check against the regulatory limit
 const updateProductPrice = async (req, res) => {
     try {
         const { id } = req.params;
@@ -41,14 +63,16 @@ const updateProductPrice = async (req, res) => {
         product.Price = Price;
         await product.save();
 
+        // Log price change
         await PriceChange.create({
             ProductID: product.ProductID,
             OldPrice: oldPrice,
             NewPrice: Price,
             ChangeDateTime: new Date(),
-            ChangedByUserID: req.user.UserID,
+                                 ChangedByUserID: req.user.UserID,
         });
 
+        // Check regulatory limit and create alert if price exceeds the limit
         const limit = await RegulatoryLimit.findOne({
             where: { ProductCategoryID: product.CategoryID }
         });
@@ -60,6 +84,7 @@ const updateProductPrice = async (req, res) => {
                 AlertDateTime: new Date(),
                                Status: 'Pending'
             });
+            console.log('Alert created: Price exceeds regulatory limit');
         }
 
         res.json({ message: 'Price updated and logged', product });
@@ -69,8 +94,60 @@ const updateProductPrice = async (req, res) => {
     }
 };
 
+// Delete a product
+const deleteProduct = async (req, res) => {
+    try {
+        const { id } = req.params;
+
+        // Log the start of the process
+        console.log(`Attempting to delete product with ID: ${id}`);
+
+        // Find the product by its ID
+        const product = await Product.findByPk(id);
+        if (!product) {
+            console.log('Product not found');
+            return res.status(404).json({ message: 'Product not found' });
+        }
+
+        // Delete related sales first
+        console.log(`Deleting sales for product with ID: ${id}`);
+        await Sale.destroy({
+            where: {
+                ProductID: id
+            }
+        });
+
+        // Optional: Delete related price changes (if needed)
+        console.log(`Deleting price changes for product with ID: ${id}`);
+        await PriceChange.destroy({
+            where: {
+                ProductID: id
+            }
+        });
+
+        // Optional: Delete related alerts (if needed)
+        console.log(`Deleting alerts for product with ID: ${id}`);
+        await Alert.destroy({
+            where: {
+                ProductID: id
+            }
+        });
+
+        // Now, delete the product
+        console.log(`Deleting product with ID: ${id}`);
+        await product.destroy();
+
+        console.log(`Product and related data deleted successfully`);
+        res.status(200).json({ message: 'Product and related data deleted successfully' });
+    } catch (err) {
+        console.error('Error deleting product:', err);
+        res.status(500).json({ message: 'Failed to delete product', error: err.message });
+    }
+};
+
 module.exports = {
     createProduct,
     getAllProducts,
-    updateProductPrice
+    updateProductPrice,
+    deleteProduct
 };
