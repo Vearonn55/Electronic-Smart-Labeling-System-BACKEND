@@ -1,0 +1,34 @@
+[
+  {
+    "SaleID": 1,
+    "ProductID": 1,
+    "Quantity": 2,
+    "SaleDateTime": "2025-04-08T20:46:34.000Z",
+    "Product": {
+      "ProductID": 1,
+      "Name": "Milk",
+      "Description": "1L Full Fat Milk",
+      "NutritionalFacts": "Calories: 150, Protein: 8g",
+      "CategoryID": 1,
+      "Price": "32.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 43
+    }
+  },
+  {
+    "SaleID": 2,
+    "ProductID": 1,
+    "Quantity": 5,
+    "SaleDateTime": "2025-04-08T22:36:21.000Z",
+    "Product": {
+      "ProductID": 1,
+      "Name": "Milk",
+      "Description": "1L Full Fat Milk",
+      "NutritionalFacts": "Calories: 150, Protein: 8g",
+      "CategoryID": 1,
+      "Price": "32.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 43
+    }
+  }
+]

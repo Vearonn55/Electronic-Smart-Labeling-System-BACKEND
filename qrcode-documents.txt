@@ -1,0 +1,146 @@
+To automatically generate a page for each product on the frontend, we will need to:
+	1.	Set up dynamic routing in your frontend framework (React, Vue, Angular, etc.) to handle product pages.
+	2.	Create a backend endpoint that can serve product information based on the product ID.
+	3.	Link the QR code to this dynamically generated URL for each product.
+
+I’ll guide you through the steps for implementing this with React as an example, but the approach can be adapted to any frontend framework.
+
+Steps to Automatically Generate a Page for Each Product:
+
+1. Backend Endpoint to Serve Product Data:
+
+Make sure your backend provides an endpoint to fetch product details. You probably already have an endpoint like this, but here’s a quick reminder:
+
+Example:
+
+// In product.controller.js (Backend)
+const { Product } = require('../models');
+
+// Get product by ID
+const getProductById = async (req, res) => {
+    try {
+        const { id } = req.params; // Retrieve the product ID from the URL parameter
+        const product = await Product.findByPk(id); // Fetch product by ID
+
+        if (!product) {
+            return res.status(404).json({ message: 'Product not found' });
+        }
+
+        res.json(product);
+    } catch (err) {
+        console.error('Error fetching product:', err);
+        res.status(500).json({ message: 'Failed to fetch product' });
+    }
+};
+
+module.exports = {
+    getProductById
+};
+
+Then, in your product.routes.js:
+
+const express = require('express');
+const { getProductById } = require('../controllers/product.controller');
+const router = express.Router();
+
+// Route to get product by ID
+router.get('/:id', getProductById);
+
+module.exports = router;
+
+2. Frontend Dynamic Routing:
+
+In React (using React Router), you can set up dynamic routing to generate a unique product page for each product using the product ID passed in the URL.
+
+Example of React Router Setup:
+	1.	Install react-router-dom if you haven’t already:
+
+npm install react-router-dom
+
+	2.	Create a ProductPage.js component that will render the product details:
+
+// ProductPage.js
+import React, { useEffect, useState } from 'react';
+import { useParams } from 'react-router-dom'; // Hook to get route params
+import axios from 'axios';
+
+const ProductPage = () => {
+    const { id } = useParams(); // Get the product ID from the URL
+    const [product, setProduct] = useState(null);
+
+    useEffect(() => {
+        // Fetch product data from the backend using the product ID
+        axios.get(`/api/products/${id}`)
+            .then(response => {
+                setProduct(response.data); // Set the product data from the backend
+            })
+            .catch(error => {
+                console.error("Error fetching product data:", error);
+            });
+    }, [id]);
+
+    if (!product) return <div>Loading...</div>;
+
+    return (
+        <div>
+            <h1>{product.Name}</h1>
+            <p>{product.Description}</p>
+            <p>Price: ${product.Price}</p>
+            <p>Stock Quantity: {product.StockQuantity}</p>
+            <p>Expiry Date: {product.ExpiryDate}</p>
+        </div>
+    );
+};
+
+export default ProductPage;
+
+	3.	Set up the routing for this page in your App.js or Routes.js file:
+
+// App.js or Routes.js
+import React from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import ProductPage from './components/ProductPage'; // Import the ProductPage component
+
+const App = () => {
+    return (
+        <Router>
+            <Switch>
+                {/* Define route for dynamic product page */}
+                <Route path="/products/:id" component={ProductPage} />
+            </Switch>
+        </Router>
+    );
+};
+
+export default App;
+
+3. Link the QR Code to the Product Page:
+
+When you generate the QR code, link it to the URL of the dynamically generated product page. For example, for product ID 1, the URL could be something like:
+
+https://yourwebsite.com/products/1
+
+In the backend, when generating the QR code, you’ll encode the URL like this:
+
+const QRCode = require('qrcode');
+
+// Generate the URL for the product page
+const productUrl = `https://yourwebsite.com/products/${product.ProductID}`;
+
+// Generate the QR code
+QRCode.toDataURL(productUrl, (err, qrCodeData) => {
+    if (err) {
+        console.error("Error generating QR code:", err);
+    } else {
+        // Save or send the QR code data
+        console.log("Generated QR code:", qrCodeData);
+    }
+});
+
+This way, when a user scans the QR code, they’ll be redirected to the dynamically generated product page that shows the details for the specific product.
+
+Conclusion:
+
+By following these steps, each product will have a unique page dynamically generated through React Router, and users will be able to access it via the QR code. The key here is to set up the API endpoint to fetch product details by ID and then link to that endpoint from the frontend dynamically using React Router.
+
+Let me know if you need more details on any of the steps!

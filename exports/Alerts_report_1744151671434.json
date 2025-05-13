@@ -1,0 +1,19 @@
+[
+  {
+    "AlertID": 1,
+    "ProductID": 1,
+    "AlertType": "PriceExceeded",
+    "AlertDateTime": "2025-04-08T20:07:43.000Z",
+    "Status": "Pending",
+    "Product": {
+      "ProductID": 1,
+      "Name": "Milk",
+      "Description": "1L Full Fat Milk",
+      "NutritionalFacts": "Calories: 150, Protein: 8g",
+      "CategoryID": 1,
+      "Price": "30.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 48
+    }
+  }
+]

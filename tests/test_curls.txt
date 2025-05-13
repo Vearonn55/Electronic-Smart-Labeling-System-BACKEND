@@ -1,0 +1,111 @@
+Sure! Below are the test commands you can use to ensure everything works as expected for your backend system. The commands cover different functionalities that we discussed in your system, such as product creation, price updates, report generation, and more.
+
+1. Test Product Creation
+
+This test will create a new product.
+
+curl -X POST http://localhost:5050/api/products \
+-H "Authorization: Bearer <your-token>" \
+-H "Content-Type: application/json" \
+-d '{
+  "Name": "Milk",
+  "Description": "1L Full Fat Milk",
+  "NutritionalFacts": "Calories: 150, Protein: 8g",
+  "CategoryID": 1,
+  "Price": 30.99,
+  "ExpiryDate": "2025-05-01",
+  "StockQuantity": 100
+}'
+
+2. Test Fetching All Products
+
+This test fetches all the products from the database.
+
+curl -X GET http://localhost:5050/api/products \
+-H "Authorization: Bearer <your-token>"
+
+3. Test Price Update for Product
+
+This test updates the price of a product and logs the change.
+
+curl -X PUT http://localhost:5050/api/products/1/price \
+-H "Authorization: Bearer <your-token>" \
+-H "Content-Type: application/json" \
+-d '{"Price": 32.99}'
+
+4. Test Report Generation (Sales)
+
+This test generates a sales report.
+
+curl -X POST http://localhost:5050/api/reports \
+-H "Authorization: Bearer <your-token>" \
+-H "Content-Type: application/json" \
+-d '{"type": "Sales"}'
+
+5. Test Report Generation (Alerts)
+
+This test generates an alerts report.
+
+curl -X POST http://localhost:5050/api/reports \
+-H "Authorization: Bearer <your-token>" \
+-H "Content-Type: application/json" \
+-d '{"type": "Alerts"}'
+
+6. Test Sale Recording
+
+This test records a new sale.
+
+curl -X POST http://localhost:5050/api/sales \
+-H "Authorization: Bearer <your-token>" \
+-H "Content-Type: application/json" \
+-d '{"ProductID": 1, "Quantity": 2}'
+
+7. Test Fetching All Sales
+
+This test fetches all sales records.
+
+curl -X GET http://localhost:5050/api/sales \
+-H "Authorization: Bearer <your-token>"
+
+8. Test Alert Creation (Price Exceeded)
+
+This test simulates a price-exceeded alert creation.
+
+curl -X POST http://localhost:5050/api/alerts \
+-H "Authorization: Bearer <your-token>" \
+-H "Content-Type: application/json" \
+-d '{"ProductID": 1, "AlertType": "PriceExceeded", "Status": "Pending"}'
+
+9. Test Category Creation
+
+This test creates a new product category (Admin only).
+
+curl -X POST http://localhost:5050/api/categories \
+-H "Authorization: Bearer <your-token>" \
+-H "Content-Type: application/json" \
+-d '{"CategoryName": "Beverages"}'
+
+10. Test Fetching All Categories
+
+This test fetches all product categories.
+
+curl -X GET http://localhost:5050/api/categories \
+-H "Authorization: Bearer <your-token>"
+
+11. Test User Authentication (Login)
+
+This test logs in a user and gets a JWT token.
+
+curl -X POST http://localhost:5050/api/auth/login \
+-H "Content-Type: application/json" \
+-d '{"UserName": "admin", "Password": "admin123"}'
+
+12. Test User Registration
+
+This test registers a new user.
+
+curl -X POST http://localhost:5050/api/auth/register \
+-H "Content-Type: application/json" \
+-d '{"UserName": "newuser", "Email": "newuser@example.com", "Password": "password123", "Role": "Admin"}'
+
+13. Test User Role-based Access (Admin only)
