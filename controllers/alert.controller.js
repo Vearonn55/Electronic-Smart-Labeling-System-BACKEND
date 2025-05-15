@@ -28,7 +28,36 @@ const getAllAlerts = async (req, res) => {
     }
 };
 
+// alert pending -> resolved
+const resolveAlert = async (req, res) => {
+    try {
+        const { id } = req.params; // Alert ID from the request parameter
+
+        // Find the alert by ID
+        const alert = await Alert.findByPk(id);
+
+        if (!alert) {
+            return res.status(404).json({ message: 'Alert not found' });
+        }
+
+        // Check if the current status is 'Pending'
+        if (alert.Status === 'Resolved') {
+            return res.status(400).json({ message: 'Alert is already resolved' });
+        }
+
+        // Update the status to 'Resolved'
+        alert.Status = 'Resolved';
+        await alert.save();
+
+        res.status(200).json({ message: 'Alert status updated to resolved', alert });
+    } catch (err) {
+        console.error('Error resolving alert:', err);
+        res.status(500).json({ message: 'Failed to resolve alert' });
+    }
+};
+
 module.exports = {
     createAlert,
-    getAllAlerts
+    getAllAlerts,
+    resolveAlert,
 };
