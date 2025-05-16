@@ -108,4 +108,8 @@ curl -X POST http://localhost:5050/api/auth/register \
 -H "Content-Type: application/json" \
 -d '{"UserName": "newuser", "Email": "newuser@example.com", "Password": "password123", "Role": "Admin"}'
 
-13. Test User Role-based Access (Admin only)
+LOGIN FUNC.
+
+ curl -X POST http://localhost:5050/api/auth/login \
+-H "Content-Type: application/json" \
+-d '{"UserName": "admin", "Password": "admin123"}'
