@@ -1,15 +1,14 @@
 const express = require('express');
 const router = express.Router();
-const { createAlert, getAllAlerts, resolveAlert } = require('../controllers/alert.controller');
-const verifyToken = require('../middleware/verifyToken');
+const alertController = require('../controllers/alert.controller');
 
-//create alerts
-router.post('/', verifyToken, createAlert);
+// Get all alerts
+router.get('/', alertController.getAllAlerts);
 
-//view alerts
-router.get('/', verifyToken, getAllAlerts);
+// Get alert by ID
+router.get('/:id', alertController.getAlertById);
 
-// Admins can resolve alerts
-router.put('/:id/resolve', verifyToken, resolveAlert);
+// Resolve alert by ID
+router.patch('/:id/resolve', alertController.resolveAlert);
 
 module.exports = router;

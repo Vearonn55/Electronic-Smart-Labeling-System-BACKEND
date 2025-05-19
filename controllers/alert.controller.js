@@ -56,8 +56,22 @@ const resolveAlert = async (req, res) => {
     }
 };
 
+// Get alert by ID
+const getAlertById = async (req, res) => {
+    try {
+        const alert = await Alert.findByPk(req.params.id);
+        if (!alert) {
+            return res.status(404).json({ message: 'Alert not found' });
+        }
+        return res.status(200).json(alert);
+    } catch (error) {
+        return res.status(500).json({ message: 'Error retrieving alert', error: error.message });
+    }
+};
+
 module.exports = {
     createAlert,
     getAllAlerts,
     resolveAlert,
+    getAlertById
 };
