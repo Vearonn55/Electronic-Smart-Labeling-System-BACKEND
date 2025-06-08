@@ -41,7 +41,7 @@ const generateReport = async (req, res) => {
                                            FilePath: `/exports/${fileName}`
         });
 
-        res.status(201).json({ message: 'Report generated successfully', report });
+        res.status(201).json({ message: 'Report generated successfully', report, data });
     } catch (err) {
         console.error('Error generating report:', err);
         res.status(500).json({ message: 'Report generation failed', error: err.message });
