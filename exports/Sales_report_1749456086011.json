@@ -1,0 +1,121 @@
+[
+  {
+    "SaleID": 4,
+    "ProductID": 2,
+    "Quantity": 66,
+    "SaleDateTime": "2025-06-08T16:49:31.000Z",
+    "Product": {
+      "ProductID": 2,
+      "Name": "makarnas",
+      "Description": "carbs",
+      "NutritionalFacts": "500gr",
+      "CategoryID": 1,
+      "Price": "21.00",
+      "ExpiryDate": "2025-05-28T00:00:00.000Z",
+      "StockQuantity": 322,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQY7cWAwFwUxC97/yc+2Gqw8IUvW4aUaYD9YYxRqlWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGuXhI5Scl4USlS0Kn0iXhROUnJeGJYo1SrFGKNcrFy5LwJpUTlS4Jd6h0SThJwptU3lSsUYo1SrFGufgylTuScEcSOpUuCV0SOpUnVO5IwjcVa5RijVKsUS6GSUKn8i8p1ijFGqVYo1z8cirrP8UapVijFGuUiy9LwjcloVPpktCpdEl4Igl/k2KNUqxRijXKxctUfpJKl4ROpUtCp9Il4UTlb1asUYo1SrFGMR+sMYo1SrFGKdYoFw+pdEnoVLokdCpdEjqVLgknKl0STlS6JNyh0iXhRKVLwpuKNUqxRinWKBcPJaFTeVMSOpUuCV0STlS6JHQqXRI6lS4JnUqXhJ9UrFGKNUqxRrl4SOUOlTtUuiR0Kt+kckcSOpUuCd9UrFGKNUqxRjEfPKBykoQ7VLok3KHypiR0Knck4USlS8ITxRqlWKMUaxTzwYtU7khCp/JEEjqVkyR0Knck4UTlJAlvKtYoxRqlWKOYD34xlTuScIdKl4Q7VE6S8KZijVKsUYo1ivngAZWflIQ3qXRJuEOlS8L/qVijFGuUYo1y8bIkvEnlDpWTJHRJOFHpktAl4UTlJAlvKtYoxRqlWKNcfJnKHUm4Q+UkCScqXRLuUOmScJKETqVLwhPFGqVYoxRrlItfLgmdyolKl4ROpUtCp9IloVPpktCpdEl4U7FGKdYoxRrl4pdTOVF5QuUJlS4JnUqXhCeKNUqxRinWKBdfloRvSsKJyonKSRI6lU7lJAknSXhTsUYp1ijFGuXiZSo/SeUkCZ1Kl4ROpVM5SUKn0ql0SehUuiQ8UaxRijVKsUYxH6wxijVKsUYp1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKN8gcJqiH7Q1sJHAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 5,
+    "ProductID": 32,
+    "Quantity": 150,
+    "SaleDateTime": "2025-06-08T16:50:47.000Z",
+    "Product": {
+      "ProductID": 32,
+      "Name": "lucky strike",
+      "Description": "sigara",
+      "NutritionalFacts": "nikotin",
+      "CategoryID": 2,
+      "Price": "24.00",
+      "ExpiryDate": "2025-05-31T00:00:00.000Z",
+      "StockQuantity": 446,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALZSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBstHmMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qTyShUzlJwjepPFGsUYo1SrFGuXiZypuScJKETqVLwptU3pSENxVrlGKNUqxRLj4sCXeo3KFyh8qbknCHyicVa5RijVKsUS6GScL/WbFGKdYoxRrl4scl4Y4knKj8smKNUqxRijXKxYepfJLKSRJOVJ5Q+ZcUa5RijVKsUS5eloRvSkKncqLSJaFTOUnCv6xYoxRrlGKNEv8wWBI6lcmKNUqxRinWKBcPJaFT6ZLQqXRJ6FS6JHQqJ0noVE6S0KnckYRO5SQJncqbijVKsUYp1igXX5aETuVEpUvCiUqXhBOVLgmdSpeETqVLQqfyTcUapVijFGuUi4dUuiS8KQknKl0S3pSEO1S6JHQqXRI6lSeKNUqxRinWKPEPDyThROUkCZ3KJyXhDpUuCXeodEnoVN5UrFGKNUqxRrl4mUqXhE6lUzlJwolKl4RO5USlS0KXhBOVkyR0Kl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4RO5Y4kdCp3JKFT+aRijVKsUYo1ysVDSfgmlU7liSR0Kp3KSRI6lU7lm4o1SrFGKdYoFy9TeVMSPknlJAmdSqdykoQTlTcVa5RijVKsUS4+LAl3qNyRhE6lUzlJQqdyRxI6lROVLgmdyhPFGqVYoxRrlIsfp9IloVPpktCpdEnoVLokdCpdEjqVLgmdypuKNUqxRinWKBc/LgmflIQnktCpdEnoVJ4o1ijFGqVYo1x8mMonqXRJuCMJJypdEroknKicqLypWKMUa5RijXLxsiR8UxI6lS4JJypdEroknKh0SeiS0Kl0SehUnijWKMUapVijxD+sMYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijfIfMMcu7jY16GQAAAAASUVORK5CYII="
+    }
+  },
+  {
+    "SaleID": 6,
+    "ProductID": 2,
+    "Quantity": 56,
+    "SaleDateTime": "2025-06-08T17:27:53.000Z",
+    "Product": {
+      "ProductID": 2,
+      "Name": "makarnas",
+      "Description": "carbs",
+      "NutritionalFacts": "500gr",
+      "CategoryID": 1,
+      "Price": "21.00",
+      "ExpiryDate": "2025-05-28T00:00:00.000Z",
+      "StockQuantity": 322,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQY7cWAwFwUxC97/yc+2Gqw8IUvW4aUaYD9YYxRqlWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGuXhI5Scl4USlS0Kn0iXhROUnJeGJYo1SrFGKNcrFy5LwJpUTlS4Jd6h0SThJwptU3lSsUYo1SrFGufgylTuScEcSOpUuCV0SOpUnVO5IwjcVa5RijVKsUS6GSUKn8i8p1ijFGqVYo1z8cirrP8UapVijFGuUiy9LwjcloVPpktCpdEl4Igl/k2KNUqxRijXKxctUfpJKl4ROpUtCp9Il4UTlb1asUYo1SrFGMR+sMYo1SrFGKdYoFw+pdEnoVLokdCpdEjqVLgknKl0STlS6JNyh0iXhRKVLwpuKNUqxRinWKBcPJaFTeVMSOpUuCV0STlS6JHQqXRI6lS4JnUqXhJ9UrFGKNUqxRrl4SOUOlTtUuiR0Kt+kckcSOpUuCd9UrFGKNUqxRjEfPKBykoQ7VLok3KHypiR0Knck4USlS8ITxRqlWKMUaxTzwYtU7khCp/JEEjqVkyR0Knck4UTlJAlvKtYoxRqlWKOYD34xlTuScIdKl4Q7VE6S8KZijVKsUYo1ivngAZWflIQ3qXRJuEOlS8L/qVijFGuUYo1y8bIkvEnlDpWTJHRJOFHpktAl4UTlJAlvKtYoxRqlWKNcfJnKHUm4Q+UkCScqXRLuUOmScJKETqVLwhPFGqVYoxRrlItfLgmdyolKl4ROpUtCp9IloVPpktCpdEl4U7FGKdYoxRrl4pdTOVF5QuUJlS4JnUqXhCeKNUqxRinWKBdfloRvSsKJyonKSRI6lU7lJAknSXhTsUYp1ijFGuXiZSo/SeUkCZ1Kl4ROpVM5SUKn0ql0SehUuiQ8UaxRijVKsUYxH6wxijVKsUYp1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKN8gcJqiH7Q1sJHAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 7,
+    "ProductID": 29,
+    "Quantity": 5,
+    "SaleDateTime": "2025-05-28T20:36:00.000Z",
+    "Product": {
+      "ProductID": 29,
+      "Name": "heineken",
+      "Description": "en iyi bira",
+      "NutritionalFacts": "500ml",
+      "CategoryID": 1,
+      "Price": "20.00",
+      "ExpiryDate": "2025-05-28T00:00:00.000Z",
+      "StockQuantity": 53,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALFSURBVO3BQW7sWAwEwSxC979yjpdcPUCQusfmZ0T8wRqjWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoFw8l4ZtUTpLQqTyRhG9SeaJYoxRrlGKNcvEylTcl4SQJdyThROVE5U1JeFOxRinWKMUa5eLDknCHyh0qXRK6JHxSEu5Q+aRijVKsUYo1ysU/RmWyYo1SrFGKNcrFH5eETuUkCScqf1mxRinWKMUa5eLDVD5J5SQJJypPqPwmxRqlWKMUa5SLlyXhm5LQqZyodEnoVE6S8JsVa5RijVKsUeIP1hjFGqVYoxRrlIuHktCpdEnoVLokdCpdEjqVO5LQqXRJ6FTuSEKncpKETuVNxRqlWKMUa5SLL0vCHSp3JKFT6ZLQqXRJ6FS6JHQqXRI6lW8q1ijFGqVYo8QffFES3qRyRxI6lS4Jd6icJKFT+aRijVKsUYo1SvzBA0noVJ5IQqfSJeGbVLok3KHSJeFE5YlijVKsUYo1ysWHJeGJJHQqXRI6lS4JJypdEroknKicJOFE5U3FGqVYoxRrlIuHVE5UvikJJyonKl0SOpXfrFijFGuUYo0Sf/BAEr5J5SQJJypdEjqVO5LQqfyfijVKsUYp1igXL1N5UxI+SeUkCZ1Kp3KShBOVNxVrlGKNUqxRLj4sCXeo3JGETqVLwkkSOpU7ktCpnKh0SehUnijWKMUapVijXPxxKnckoVPpktCpdEnoVLokdCpdEjqVNxVrlGKNUqxRLv64JHxSEp5IQqfSJaFTeaJYoxRrlGKNcvFhKp+kckcSuiScqHRJ6JJwonKi8qZijVKsUYo1ysXLkvBNSehU7lDpktAl4USlS0KXhE6lS0Kn8kSxRinWKMUaJf5gjVGsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5T/AKyeF/b1aErrAAAAAElFTkSuQmCC"
+    }
+  },
+  {
+    "SaleID": 8,
+    "ProductID": 2,
+    "Quantity": 22,
+    "SaleDateTime": "2025-05-30T20:59:00.000Z",
+    "Product": {
+      "ProductID": 2,
+      "Name": "makarnas",
+      "Description": "carbs",
+      "NutritionalFacts": "500gr",
+      "CategoryID": 1,
+      "Price": "21.00",
+      "ExpiryDate": "2025-05-28T00:00:00.000Z",
+      "StockQuantity": 322,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQY7cWAwFwUxC97/yc+2Gqw8IUvW4aUaYD9YYxRqlWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGuXhI5Scl4USlS0Kn0iXhROUnJeGJYo1SrFGKNcrFy5LwJpUTlS4Jd6h0SThJwptU3lSsUYo1SrFGufgylTuScEcSOpUuCV0SOpUnVO5IwjcVa5RijVKsUS6GSUKn8i8p1ijFGqVYo1z8cirrP8UapVijFGuUiy9LwjcloVPpktCpdEl4Igl/k2KNUqxRijXKxctUfpJKl4ROpUtCp9Il4UTlb1asUYo1SrFGMR+sMYo1SrFGKdYoFw+pdEnoVLokdCpdEjqVLgknKl0STlS6JNyh0iXhRKVLwpuKNUqxRinWKBcPJaFTeVMSOpUuCV0STlS6JHQqXRI6lS4JnUqXhJ9UrFGKNUqxRrl4SOUOlTtUuiR0Kt+kckcSOpUuCd9UrFGKNUqxRjEfPKBykoQ7VLok3KHypiR0Knck4USlS8ITxRqlWKMUaxTzwYtU7khCp/JEEjqVkyR0Knck4UTlJAlvKtYoxRqlWKOYD34xlTuScIdKl4Q7VE6S8KZijVKsUYo1ivngAZWflIQ3qXRJuEOlS8L/qVijFGuUYo1y8bIkvEnlDpWTJHRJOFHpktAl4UTlJAlvKtYoxRqlWKNcfJnKHUm4Q+UkCScqXRLuUOmScJKETqVLwhPFGqVYoxRrlItfLgmdyolKl4ROpUtCp9IloVPpktCpdEl4U7FGKdYoxRrl4pdTOVF5QuUJlS4JnUqXhCeKNUqxRinWKBdfloRvSsKJyonKSRI6lU7lJAknSXhTsUYp1ijFGuXiZSo/SeUkCZ1Kl4ROpVM5SUKn0ql0SehUuiQ8UaxRijVKsUYxH6wxijVKsUYp1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKN8gcJqiH7Q1sJHAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 9,
+    "ProductID": 32,
+    "Quantity": 4,
+    "SaleDateTime": "2025-06-11T09:09:00.000Z",
+    "Product": {
+      "ProductID": 32,
+      "Name": "lucky strike",
+      "Description": "sigara",
+      "NutritionalFacts": "nikotin",
+      "CategoryID": 2,
+      "Price": "24.00",
+      "ExpiryDate": "2025-05-31T00:00:00.000Z",
+      "StockQuantity": 446,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALZSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBstHmMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qTyShUzlJwjepPFGsUYo1SrFGuXiZypuScJKETqVLwptU3pSENxVrlGKNUqxRLj4sCXeo3KFyh8qbknCHyicVa5RijVKsUS6GScL/WbFGKdYoxRrl4scl4Y4knKj8smKNUqxRijXKxYepfJLKSRJOVJ5Q+ZcUa5RijVKsUS5eloRvSkKncqLSJaFTOUnCv6xYoxRrlGKNEv8wWBI6lcmKNUqxRinWKBcPJaFT6ZLQqXRJ6FS6JHQqJ0noVE6S0KnckYRO5SQJncqbijVKsUYp1igXX5aETuVEpUvCiUqXhBOVLgmdSpeETqVLQqfyTcUapVijFGuUi4dUuiS8KQknKl0S3pSEO1S6JHQqXRI6lSeKNUqxRinWKPEPDyThROUkCZ3KJyXhDpUuCXeodEnoVN5UrFGKNUqxRrl4mUqXhE6lUzlJwolKl4RO5USlS0KXhBOVkyR0Kl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4RO5Y4kdCp3JKFT+aRijVKsUYo1ysVDSfgmlU7liSR0Kp3KSRI6lU7lm4o1SrFGKdYoFy9TeVMSPknlJAmdSqdykoQTlTcVa5RijVKsUS4+LAl3qNyRhE6lUzlJQqdyRxI6lROVLgmdyhPFGqVYoxRrlIsfp9IloVPpktCpdEnoVLokdCpdEjqVLgmdypuKNUqxRinWKBc/LgmflIQnktCpdEnoVJ4o1ijFGqVYo1x8mMonqXRJuCMJJypdEroknKicqLypWKMUa5RijXLxsiR8UxI6lS4JJypdEroknKh0SeiS0Kl0SehUnijWKMUapVijxD+sMYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijfIfMMcu7jY16GQAAAAASUVORK5CYII="
+    }
+  },
+  {
+    "SaleID": 10,
+    "ProductID": 29,
+    "Quantity": 2,
+    "SaleDateTime": "2025-06-08T19:09:45.000Z",
+    "Product": {
+      "ProductID": 29,
+      "Name": "heineken",
+      "Description": "en iyi bira",
+      "NutritionalFacts": "500ml",
+      "CategoryID": 1,
+      "Price": "20.00",
+      "ExpiryDate": "2025-05-28T00:00:00.000Z",
+      "StockQuantity": 53,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALFSURBVO3BQW7sWAwEwSxC979yjpdcPUCQusfmZ0T8wRqjWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoFw8l4ZtUTpLQqTyRhG9SeaJYoxRrlGKNcvEylTcl4SQJdyThROVE5U1JeFOxRinWKMUa5eLDknCHyh0qXRK6JHxSEu5Q+aRijVKsUYo1ysU/RmWyYo1SrFGKNcrFH5eETuUkCScqf1mxRinWKMUa5eLDVD5J5SQJJypPqPwmxRqlWKMUa5SLlyXhm5LQqZyodEnoVE6S8JsVa5RijVKsUeIP1hjFGqVYoxRrlIuHktCpdEnoVLokdCpdEjqVO5LQqXRJ6FTuSEKncpKETuVNxRqlWKMUa5SLL0vCHSp3JKFT6ZLQqXRJ6FS6JHQqXRI6lW8q1ijFGqVYo8QffFES3qRyRxI6lS4Jd6icJKFT+aRijVKsUYo1SvzBA0noVJ5IQqfSJeGbVLok3KHSJeFE5YlijVKsUYo1ysWHJeGJJHQqXRI6lS4JJypdEroknKicJOFE5U3FGqVYoxRrlIuHVE5UvikJJyonKl0SOpXfrFijFGuUYo0Sf/BAEr5J5SQJJypdEjqVO5LQqfyfijVKsUYp1igXL1N5UxI+SeUkCZ1Kp3KShBOVNxVrlGKNUqxRLj4sCXeo3JGETqVLwkkSOpU7ktCpnKh0SehUnijWKMUapVijXPxxKnckoVPpktCpdEnoVLokdCpdEjqVNxVrlGKNUqxRLv64JHxSEp5IQqfSJaFTeaJYoxRrlGKNcvFhKp+kckcSuiScqHRJ6JJwonKi8qZijVKsUYo1ysXLkvBNSehU7lDpktAl4USlS0KXhE6lS0Kn8kSxRinWKMUaJf5gjVGsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5T/AKyeF/b1aErrAAAAAElFTkSuQmCC"
+    }
+  }
+]

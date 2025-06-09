@@ -36,7 +36,7 @@ const createProduct = async (req, res) => {
 const getAllProducts = async (req, res) => {
   try {
     const products = await Product.findAll({
-      attributes: ['ProductID', 'Name', 'Price'] // only necessary fields
+      attributes: ['ProductID', 'Name', 'Price', 'CategoryID'] // only necessary fields
     });
     res.status(200).json(products);
   } catch (error) {
