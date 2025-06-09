@@ -1,10 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const { createProduct, getAllProducts, updateProductPrice, deleteProduct } = require('../controllers/product.controller');
+const { createProduct, getAllProducts, updateProductPrice, deleteProduct, getAllProducts2 } = require('../controllers/product.controller');
 const verifyToken = require('../middleware/verifyToken');
 
 // All roles can view products
 router.get('/', verifyToken, getAllProducts);
+router.get('/get', verifyToken, getAllProducts2);
 
 // Admin can create and update products
 router.post('/', verifyToken, createProduct);

@@ -44,6 +44,17 @@ const getAllProducts = async (req, res) => {
     res.status(500).json({ message: 'Failed to fetch products' });
   }
 };
+
+const getAllProducts2 = async (req, res) => {
+  try {
+    const products = await Product.findAll(); // ✅ returns all fields
+    res.status(200).json(products);
+  } catch (error) {
+    console.error('Error fetching products:', error);
+    res.status(500).json({ message: 'Failed to fetch products' });
+  }
+};
+
 // Update product price, log the price change, and check against the regulatory limit
 const updateProductPrice = async (req, res) => {
     try {
@@ -148,6 +159,7 @@ const deleteProduct = async (req, res) => {
 module.exports = {
     createProduct,
     getAllProducts,
+    getAllProducts2,
     updateProductPrice,
     deleteProduct
 };
