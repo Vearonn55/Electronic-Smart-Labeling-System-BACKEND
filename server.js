@@ -18,6 +18,7 @@ const productRoutes = require('./routes/product.routes');
 const saleRoutes = require('./routes/sale.routes');
 const alertRoutes = require('./routes/alert.routes');
 const reportRoutes = require('./routes/report.routes');
+const eslStatusRoutes = require('./routes/eslstatus.routes');
 
 // Mount routes
 app.use('/api/auth', authRoutes);
@@ -26,6 +27,7 @@ app.use('/api/products', productRoutes);
 app.use('/api/sales', saleRoutes);
 app.use('/api/alerts', alertRoutes);
 app.use('/api/reports', reportRoutes);
+app.use('/api/eslstatus', eslStatusRoutes);
 
 // Export folder
 app.use('/exports', express.static('exports'));
