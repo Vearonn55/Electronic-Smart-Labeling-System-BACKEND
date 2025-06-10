@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const { createProduct, getAllProducts, updateProductPrice, deleteProduct, getAllProducts2 ,editProduct } = require('../controllers/product.controller');
+const { createProduct, getAllProducts, updateProductPrice, deleteProduct, getAllProducts2 ,editProduct, getProductById } = require('../controllers/product.controller');
 const verifyToken = require('../middleware/verifyToken');
 
 // All roles can view products
@@ -19,5 +19,8 @@ router.delete('/:id', verifyToken, (req, res) => {
 
 // All roles can edit products
 router.put('/:id', editProduct);
+
+// Single Product info
+router.get('/:id', verifyToken, getProductById);
 
 module.exports = router;

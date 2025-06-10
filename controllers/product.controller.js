@@ -182,11 +182,25 @@ const editProduct = async (req, res) => {
     }
 };
 
+
+const getProductById = async (req, res) => {
+    try {
+        const product = await Product.findByPk(req.params.id);
+        if (!product) {
+            return res.status(404).json({ message: "Product not found" });
+        }
+        res.json(product);
+    } catch (error) {
+        res.status(500).json({ message: "Error fetching product", error: error.message });
+    }
+};
+
 module.exports = {
     createProduct,
     getAllProducts,
     getAllProducts2,
     updateProductPrice,
     deleteProduct,
-    editProduct
+    editProduct,
+    getProductById
 };
