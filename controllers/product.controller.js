@@ -156,10 +156,37 @@ const deleteProduct = async (req, res) => {
     }
 };
 
+const editProduct = async (req, res) => {
+    const { id } = req.params;
+    const { Name, Description, NutritionalFacts, CategoryID, Quantity } = req.body;
+
+    try {
+        const product = await Product.findByPk(id);
+
+        if (!product) {
+            return res.status(404).json({ message: 'Product not found' });
+        }
+
+        product.Name = Name ?? product.Name;
+        product.Description = Description ?? product.Description;
+        product.NutritionalFacts = NutritionalFacts ?? product.NutritionalFacts;
+        product.CategoryID = CategoryID ?? product.CategoryID;
+        product.Quantity = Quantity ?? product.Quantity;
+
+        await product.save();
+
+        res.status(200).json({ message: 'Product updated successfully', product });
+    } catch (error) {
+        console.error('Edit product error:', error);
+        res.status(500).json({ message: 'Failed to update product' });
+    }
+};
+
 module.exports = {
     createProduct,
     getAllProducts,
     getAllProducts2,
     updateProductPrice,
-    deleteProduct
+    deleteProduct,
+    editProduct
 };
