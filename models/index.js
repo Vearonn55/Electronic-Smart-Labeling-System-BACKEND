@@ -9,6 +9,8 @@ const RegulatoryLimit = require('./regulatory.model');
 const Alert = require('./alert.model');
 const Sale = require('./sale.model');
 const Report = require('./report.model');
+const ESLTag = require('./esltag.model');
+const ESLStatus = require('./eslstatus.model');
 
 // Define associations
 Product.belongsTo(ProductCategory, { foreignKey: 'CategoryID' });
@@ -24,6 +26,9 @@ Alert.belongsTo(Product, { foreignKey: 'ProductID' });
 Sale.belongsTo(Product, { foreignKey: 'ProductID' });
 
 Report.belongsTo(User, { foreignKey: 'GeneratedByUserID' });
+
+ESLTag.belongsTo(Product, { foreignKey: 'ProductID' });
+Product.hasMany(ESLTag, { foreignKey: 'ProductID' });
 
 // Sync all models in dependency-safe order
 const syncDB = async () => {
@@ -53,5 +58,7 @@ module.exports = {
     Alert,
     Sale,
     Report,
+    ESLTag,
+    ESLStatus,
     syncDB
 };

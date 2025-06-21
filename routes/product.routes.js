@@ -21,6 +21,7 @@ router.delete('/:id', verifyToken, (req, res) => {
 router.put('/:id', editProduct);
 
 // Single Product info
-router.get('/:id', verifyToken, getProductById);
+router.get('/:id', getProductById);
+
 
 module.exports = router;

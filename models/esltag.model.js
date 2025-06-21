@@ -2,35 +2,35 @@ const { DataTypes } = require('sequelize');
 const db = require('../config/db');
 
 const ESLTag = db.define('ESLTag', {
-    ESLTagID: {
+    ESLID: {
         type: DataTypes.INTEGER,
         primaryKey: true,
-        autoIncrement: true,
+        autoIncrement: true
     },
-    MacAddress: {
+    MACAddress: {
         type: DataTypes.STRING,
         allowNull: false,
-        unique: true,
+        unique: true
+    },
+    Location: {
+        type: DataTypes.STRING,
+        allowNull: true
     },
     ProductID: {
         type: DataTypes.INTEGER,
-        allowNull: true,
+        allowNull: true
     },
-    LastStatusUpdate: {
+    IsActive: {
+        type: DataTypes.BOOLEAN,
+        defaultValue: true
+    },
+    CreatedAt: {
         type: DataTypes.DATE,
-        allowNull: true,
-    },
-    Status: {
-        type: DataTypes.STRING, // e.g., 'ONLINE', 'OFFLINE'
-        allowNull: false,
-        defaultValue: 'OFFLINE',
-    },
-    BatteryLevel: {
-        type: DataTypes.INTEGER, // assuming percentage
-        allowNull: true,
-    },
+        allowNull: true
+    }
 }, {
-    timestamps: false,
+    tableName: 'ESLTag',
+    timestamps: false
 });
 
 module.exports = ESLTag;

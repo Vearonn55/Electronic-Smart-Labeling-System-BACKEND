@@ -3,7 +3,9 @@ const router = express.Router();
 const {
     registerESLTag,
     getAllESLTags,
-    assignProductToESL
+    assignProductToESL,
+    getProductByMAC,
+    updateESLTagByMac
 } = require('../controllers/esltag.controller');
 
 const verifyToken = require('../middleware/verifyToken');
@@ -20,5 +22,7 @@ router.put('/:eslId/assign', verifyToken, assignProductToESL);
 // GET: Retrieve product info for a given ESL MAC
 router.get('/mac/:macAddress', getProductByMAC);
 
+//PATCH updating the ESL<->PRODUCT_ID RELATION
+router.patch('/mac/:mac', updateESLTagByMac);
 
 module.exports = router;

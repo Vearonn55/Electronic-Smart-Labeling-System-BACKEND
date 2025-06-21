@@ -20,6 +20,7 @@ const alertRoutes = require('./routes/alert.routes');
 const reportRoutes = require('./routes/report.routes');
 const eslStatusRoutes = require('./routes/eslstatus.routes');
 const analyticsRoutes = require('./routes/analytics.routes');
+const esltagRoutes = require('./routes/esltag.routes'); // ✅ ADD THIS
 
 // Mount routes
 app.use('/api/analytics', analyticsRoutes);
@@ -30,8 +31,7 @@ app.use('/api/sales', saleRoutes);
 app.use('/api/alerts', alertRoutes);
 app.use('/api/reports', reportRoutes);
 app.use('/api/eslstatus', eslStatusRoutes);
-app.use('/api/analytics', analyticsRoutes);
-
+app.use('/api/esltag', esltagRoutes); // ✅ ADD THIS
 // Export folder
 app.use('/exports', express.static('exports'));
 
@@ -44,7 +44,7 @@ const startServer = async () => {
         await syncDB();
         console.log('All models synchronized successfully');
 
-        app.listen(PORT, () => {
+        app.listen(PORT, '0.0.0.0', () => {
             console.log(`Server started on port ${PORT}`);
         });
     } catch (err) {

@@ -1,4 +1,6 @@
-const { ESLTag, Product } = require('../models');
+const db = require('../models');
+const ESLTag = db.ESLTag;
+const Product = db.Product;
 
 // Register a new ESL tag
 const registerESLTag = async (req, res) => {
@@ -29,7 +31,7 @@ const getAllESLTags = async (req, res) => {
     }
 };
 
-// Update product assignment for an ESL tag
+// Assign a product to an ESL tag
 const assignProductToESL = async (req, res) => {
     try {
         const { eslId } = req.params;
@@ -50,38 +52,58 @@ const assignProductToESL = async (req, res) => {
     }
 };
 
-
+// Get product by ESL MAC address (used by ESP32)
 const getProductByMAC = async (req, res) => {
     try {
-        const { macAddress } = req.params;
+        const mac = req.params.macAddress.toUpperCase();
+        const tags = await ESLTag.findAll({ include: Product });
 
-        const tag = await ESLTag.findOne({ where: { MACAddress: macAddress } });
+        console.log("Incoming MAC:", mac);
+        for (const t of tags) {
+            console.log("DB MAC:", t.MACAddress.toUpperCase());
+        }
+
+        const tag = tags.find(t => t.MACAddress.toUpperCase().trim() === mac.trim());
 
         if (!tag) {
             return res.status(404).json({ message: 'ESL tag not found' });
         }
 
-        if (!tag.ProductID) {
-            return res.status(200).json({ message: 'No product assigned to this tag' });
+        if (!tag.Product) {
+            return res.status(404).json({ message: 'Product not assigned to ESL tag' });
         }
 
-        const product = await Product.findByPk(tag.ProductID);
-
-        if (!product) {
-            return res.status(404).json({ message: 'Linked product not found' });
-        }
-
-        res.status(200).json({ product });
+        res.json(tag.Product);
     } catch (err) {
         console.error('Error fetching product by MAC:', err);
-        res.status(500).json({ message: 'Failed to retrieve product for ESL tag' });
+        res.status(500).json({ message: 'Failed to fetch product by MAC' });
     }
 };
 
+
+
+const updateESLTagByMac = async (req, res) => {
+    try {
+        const mac = req.params.mac;
+        const { ProductID } = req.body;
+
+        const eslTag = await ESLTag.findOne({ where: { MACAddress: mac } });
+        if (!eslTag) return res.status(404).json({ message: 'ESLTag not found' });
+
+        eslTag.ProductID = ProductID;
+        await eslTag.save();
+
+        res.json({ message: 'ESLTag updated successfully', eslTag });
+    } catch (err) {
+        console.error(err);
+        res.status(500).json({ message: 'Server error' });
+    }
+};
 
 module.exports = {
     registerESLTag,
     getAllESLTags,
     assignProductToESL,
-    getProductByMAC
+    getProductByMAC,
+    updateESLTagByMac
 };

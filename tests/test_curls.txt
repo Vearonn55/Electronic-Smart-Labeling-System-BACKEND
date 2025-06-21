@@ -113,3 +113,15 @@ LOGIN FUNC.
  curl -X POST http://localhost:5050/api/auth/login \
 -H "Content-Type: application/json" \
 -d '{"UserName": "admin", "Password": "admin123"}'
+
+
+
+
+ipconfig getifaddr en0 // for local ip
+
+
+
+
+
+
+
