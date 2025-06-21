@@ -1,0 +1,274 @@
+[
+  {
+    "SaleID": 4,
+    "ProductID": 4,
+    "Quantity": 10,
+    "SaleDateTime": "2025-01-15T10:00:00.000Z",
+    "Product": {
+      "ProductID": 4,
+      "Name": "Milk - Updated",
+      "Description": "Fresh 1L Full Fat Milk - New Batch",
+      "NutritionalFacts": "Calories: 145, Protein: 8g, Fat: 7g",
+      "CategoryID": 1,
+      "Price": "30.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBsqdNMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qb0pCp9Il4ZtUnijWKMUapVijXLxM5U1JOElCp3KHyh0qb0rCm4o1SrFGKdYoFx+WhDtU7lDpktCpdEk4UbkjCXeofFKxRinWKMUapVijFGuUYo1SrFEuflwSTpLQqXRJmKRYoxRrlGKNcvFhKp+k8n9S+ZcUa5RijVKsUS5eloRvSkKn0iWhU3kiCf+yYo1SrFGKNUr8wyBJeELllxVrlGKNUqxRLh5KQqfSJaFT6ZLQqXRJ6FROVLoknKg8kYRO5SQJncqbijVKsUYp1igXD6m8KQmdyptU7khCp9KpnCThm4o1SrFGKdYoFw8l4U0qXRLuULkjCZ1Kp3KShE6lUzlJQqfyRLFGKdYoxRol/uGBJHQqXRJOVJ5IQqfypiR0Knck4UTlTcUapVijFGuUi5cloVPpktAl4Q6VTuUkCZ1Kl4RO5Y4kdConKl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4QTlS4JnUqXhE6lS0Kn8k3FGqVYoxRrlIuHkvBNKp3KJyXhiSTcofJEsUYp1ijFGuXiZSpvSsIdSehUuiR0SThR6ZLQJeFEpUtCp/KmYo1SrFGKNcrFhyXhDpU7ktCpdEk4UemS0CXhRKVLQpeETqVLQqfyRLFGKdYoxRrl4sepdEnoVO5Q6ZLQqZyodEnoktCpvKlYoxRrlGKNcvHjktCp3JGETqVTOUlCp9KpnCShU3miWKMUa5RijXLxYSqfpHKShE6lUzlJQqfSqZwkoVPpVN5UrFGKNUqxRrl4WRK+KQknKidJ6FTuSEKnckcSOpUnijVKsUYp1ijxD2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/Ac1IjHgnVc3VAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 5,
+    "ProductID": 4,
+    "Quantity": 15,
+    "SaleDateTime": "2025-02-03T11:30:00.000Z",
+    "Product": {
+      "ProductID": 4,
+      "Name": "Milk - Updated",
+      "Description": "Fresh 1L Full Fat Milk - New Batch",
+      "NutritionalFacts": "Calories: 145, Protein: 8g, Fat: 7g",
+      "CategoryID": 1,
+      "Price": "30.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBsqdNMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qb0pCp9Il4ZtUnijWKMUapVijXLxM5U1JOElCp3KHyh0qb0rCm4o1SrFGKdYoFx+WhDtU7lDpktCpdEk4UbkjCXeofFKxRinWKMUapVijFGuUYo1SrFEuflwSTpLQqXRJmKRYoxRrlGKNcvFhKp+k8n9S+ZcUa5RijVKsUS5eloRvSkKn0iWhU3kiCf+yYo1SrFGKNUr8wyBJeELllxVrlGKNUqxRLh5KQqfSJaFT6ZLQqXRJ6FROVLoknKg8kYRO5SQJncqbijVKsUYp1igXD6m8KQmdyptU7khCp9KpnCThm4o1SrFGKdYoFw8l4U0qXRLuULkjCZ1Kp3KShE6lUzlJQqfyRLFGKdYoxRol/uGBJHQqXRJOVJ5IQqfypiR0Knck4UTlTcUapVijFGuUi5cloVPpktAl4Q6VTuUkCZ1Kl4RO5Y4kdConKl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4QTlS4JnUqXhE6lS0Kn8k3FGqVYoxRrlIuHkvBNKp3KJyXhiSTcofJEsUYp1ijFGuXiZSpvSsIdSehUuiR0SThR6ZLQJeFEpUtCp/KmYo1SrFGKNcrFhyXhDpU7ktCpdEk4UemS0CXhRKVLQpeETqVLQqfyRLFGKdYoxRrl4sepdEnoVO5Q6ZLQqZyodEnoktCpvKlYoxRrlGKNcvHjktCp3JGETqVTOUlCp9KpnCShU3miWKMUa5RijXLxYSqfpHKShE6lUzlJQqfSqZwkoVPpVN5UrFGKNUqxRrl4WRK+KQknKidJ6FTuSEKnckcSOpUnijVKsUYp1ijxD2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/Ac1IjHgnVc3VAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 6,
+    "ProductID": 4,
+    "Quantity": 12,
+    "SaleDateTime": "2025-03-10T09:15:00.000Z",
+    "Product": {
+      "ProductID": 4,
+      "Name": "Milk - Updated",
+      "Description": "Fresh 1L Full Fat Milk - New Batch",
+      "NutritionalFacts": "Calories: 145, Protein: 8g, Fat: 7g",
+      "CategoryID": 1,
+      "Price": "30.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBsqdNMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qb0pCp9Il4ZtUnijWKMUapVijXLxM5U1JOElCp3KHyh0qb0rCm4o1SrFGKdYoFx+WhDtU7lDpktCpdEk4UbkjCXeofFKxRinWKMUapVijFGuUYo1SrFEuflwSTpLQqXRJmKRYoxRrlGKNcvFhKp+k8n9S+ZcUa5RijVKsUS5eloRvSkKn0iWhU3kiCf+yYo1SrFGKNUr8wyBJeELllxVrlGKNUqxRLh5KQqfSJaFT6ZLQqXRJ6FROVLoknKg8kYRO5SQJncqbijVKsUYp1igXD6m8KQmdyptU7khCp9KpnCThm4o1SrFGKdYoFw8l4U0qXRLuULkjCZ1Kp3KShE6lUzlJQqfyRLFGKdYoxRol/uGBJHQqXRJOVJ5IQqfypiR0Knck4UTlTcUapVijFGuUi5cloVPpktAl4Q6VTuUkCZ1Kl4RO5Y4kdConKl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4QTlS4JnUqXhE6lS0Kn8k3FGqVYoxRrlIuHkvBNKp3KJyXhiSTcofJEsUYp1ijFGuXiZSpvSsIdSehUuiR0SThR6ZLQJeFEpUtCp/KmYo1SrFGKNcrFhyXhDpU7ktCpdEk4UemS0CXhRKVLQpeETqVLQqfyRLFGKdYoxRrl4sepdEnoVO5Q6ZLQqZyodEnoktCpvKlYoxRrlGKNcvHjktCp3JGETqVTOUlCp9KpnCShU3miWKMUa5RijXLxYSqfpHKShE6lUzlJQqfSqZwkoVPpVN5UrFGKNUqxRrl4WRK+KQknKidJ6FTuSEKnckcSOpUnijVKsUYp1ijxD2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/Ac1IjHgnVc3VAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 7,
+    "ProductID": 4,
+    "Quantity": 8,
+    "SaleDateTime": "2025-04-01T14:45:00.000Z",
+    "Product": {
+      "ProductID": 4,
+      "Name": "Milk - Updated",
+      "Description": "Fresh 1L Full Fat Milk - New Batch",
+      "NutritionalFacts": "Calories: 145, Protein: 8g, Fat: 7g",
+      "CategoryID": 1,
+      "Price": "30.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBsqdNMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qb0pCp9Il4ZtUnijWKMUapVijXLxM5U1JOElCp3KHyh0qb0rCm4o1SrFGKdYoFx+WhDtU7lDpktCpdEk4UbkjCXeofFKxRinWKMUapVijFGuUYo1SrFEuflwSTpLQqXRJmKRYoxRrlGKNcvFhKp+k8n9S+ZcUa5RijVKsUS5eloRvSkKn0iWhU3kiCf+yYo1SrFGKNUr8wyBJeELllxVrlGKNUqxRLh5KQqfSJaFT6ZLQqXRJ6FROVLoknKg8kYRO5SQJncqbijVKsUYp1igXD6m8KQmdyptU7khCp9KpnCThm4o1SrFGKdYoFw8l4U0qXRLuULkjCZ1Kp3KShE6lUzlJQqfyRLFGKdYoxRol/uGBJHQqXRJOVJ5IQqfypiR0Knck4UTlTcUapVijFGuUi5cloVPpktAl4Q6VTuUkCZ1Kl4RO5Y4kdConKl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4QTlS4JnUqXhE6lS0Kn8k3FGqVYoxRrlIuHkvBNKp3KJyXhiSTcofJEsUYp1ijFGuXiZSpvSsIdSehUuiR0SThR6ZLQJeFEpUtCp/KmYo1SrFGKNcrFhyXhDpU7ktCpdEk4UemS0CXhRKVLQpeETqVLQqfyRLFGKdYoxRrl4sepdEnoVO5Q6ZLQqZyodEnoktCpvKlYoxRrlGKNcvHjktCp3JGETqVTOUlCp9KpnCShU3miWKMUa5RijXLxYSqfpHKShE6lUzlJQqfSqZwkoVPpVN5UrFGKNUqxRrl4WRK+KQknKidJ6FTuSEKnckcSOpUnijVKsUYp1ijxD2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/Ac1IjHgnVc3VAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 8,
+    "ProductID": 4,
+    "Quantity": 20,
+    "SaleDateTime": "2025-05-22T16:00:00.000Z",
+    "Product": {
+      "ProductID": 4,
+      "Name": "Milk - Updated",
+      "Description": "Fresh 1L Full Fat Milk - New Batch",
+      "NutritionalFacts": "Calories: 145, Protein: 8g, Fat: 7g",
+      "CategoryID": 1,
+      "Price": "30.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBsqdNMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qb0pCp9Il4ZtUnijWKMUapVijXLxM5U1JOElCp3KHyh0qb0rCm4o1SrFGKdYoFx+WhDtU7lDpktCpdEk4UbkjCXeofFKxRinWKMUapVijFGuUYo1SrFEuflwSTpLQqXRJmKRYoxRrlGKNcvFhKp+k8n9S+ZcUa5RijVKsUS5eloRvSkKn0iWhU3kiCf+yYo1SrFGKNUr8wyBJeELllxVrlGKNUqxRLh5KQqfSJaFT6ZLQqXRJ6FROVLoknKg8kYRO5SQJncqbijVKsUYp1igXD6m8KQmdyptU7khCp9KpnCThm4o1SrFGKdYoFw8l4U0qXRLuULkjCZ1Kp3KShE6lUzlJQqfyRLFGKdYoxRol/uGBJHQqXRJOVJ5IQqfypiR0Knck4UTlTcUapVijFGuUi5cloVPpktAl4Q6VTuUkCZ1Kl4RO5Y4kdConKl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4QTlS4JnUqXhE6lS0Kn8k3FGqVYoxRrlIuHkvBNKp3KJyXhiSTcofJEsUYp1ijFGuXiZSpvSsIdSehUuiR0SThR6ZLQJeFEpUtCp/KmYo1SrFGKNcrFhyXhDpU7ktCpdEk4UemS0CXhRKVLQpeETqVLQqfyRLFGKdYoxRrl4sepdEnoVO5Q6ZLQqZyodEnoktCpvKlYoxRrlGKNcvHjktCp3JGETqVTOUlCp9KpnCShU3miWKMUa5RijXLxYSqfpHKShE6lUzlJQqfSqZwkoVPpVN5UrFGKNUqxRrl4WRK+KQknKidJ6FTuSEKnckcSOpUnijVKsUYp1ijxD2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/Ac1IjHgnVc3VAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 9,
+    "ProductID": 4,
+    "Quantity": 25,
+    "SaleDateTime": "2025-06-18T12:20:00.000Z",
+    "Product": {
+      "ProductID": 4,
+      "Name": "Milk - Updated",
+      "Description": "Fresh 1L Full Fat Milk - New Batch",
+      "NutritionalFacts": "Calories: 145, Protein: 8g, Fat: 7g",
+      "CategoryID": 1,
+      "Price": "30.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBsqdNMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qb0pCp9Il4ZtUnijWKMUapVijXLxM5U1JOElCp3KHyh0qb0rCm4o1SrFGKdYoFx+WhDtU7lDpktCpdEk4UbkjCXeofFKxRinWKMUapVijFGuUYo1SrFEuflwSTpLQqXRJmKRYoxRrlGKNcvFhKp+k8n9S+ZcUa5RijVKsUS5eloRvSkKn0iWhU3kiCf+yYo1SrFGKNUr8wyBJeELllxVrlGKNUqxRLh5KQqfSJaFT6ZLQqXRJ6FROVLoknKg8kYRO5SQJncqbijVKsUYp1igXD6m8KQmdyptU7khCp9KpnCThm4o1SrFGKdYoFw8l4U0qXRLuULkjCZ1Kp3KShE6lUzlJQqfyRLFGKdYoxRol/uGBJHQqXRJOVJ5IQqfypiR0Knck4UTlTcUapVijFGuUi5cloVPpktAl4Q6VTuUkCZ1Kl4RO5Y4kdConKl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4QTlS4JnUqXhE6lS0Kn8k3FGqVYoxRrlIuHkvBNKp3KJyXhiSTcofJEsUYp1ijFGuXiZSpvSsIdSehUuiR0SThR6ZLQJeFEpUtCp/KmYo1SrFGKNcrFhyXhDpU7ktCpdEk4UemS0CXhRKVLQpeETqVLQqfyRLFGKdYoxRrl4sepdEnoVO5Q6ZLQqZyodEnoktCpvKlYoxRrlGKNcvHjktCp3JGETqVTOUlCp9KpnCShU3miWKMUa5RijXLxYSqfpHKShE6lUzlJQqfSqZwkoVPpVN5UrFGKNUqxRrl4WRK+KQknKidJ6FTuSEKnckcSOpUnijVKsUYp1ijxD2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/Ac1IjHgnVc3VAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 10,
+    "ProductID": 4,
+    "Quantity": 30,
+    "SaleDateTime": "2025-07-05T18:10:00.000Z",
+    "Product": {
+      "ProductID": 4,
+      "Name": "Milk - Updated",
+      "Description": "Fresh 1L Full Fat Milk - New Batch",
+      "NutritionalFacts": "Calories: 145, Protein: 8g, Fat: 7g",
+      "CategoryID": 1,
+      "Price": "30.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBsqdNMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qb0pCp9Il4ZtUnijWKMUapVijXLxM5U1JOElCp3KHyh0qb0rCm4o1SrFGKdYoFx+WhDtU7lDpktCpdEk4UbkjCXeofFKxRinWKMUapVijFGuUYo1SrFEuflwSTpLQqXRJmKRYoxRrlGKNcvFhKp+k8n9S+ZcUa5RijVKsUS5eloRvSkKn0iWhU3kiCf+yYo1SrFGKNUr8wyBJeELllxVrlGKNUqxRLh5KQqfSJaFT6ZLQqXRJ6FROVLoknKg8kYRO5SQJncqbijVKsUYp1igXD6m8KQmdyptU7khCp9KpnCThm4o1SrFGKdYoFw8l4U0qXRLuULkjCZ1Kp3KShE6lUzlJQqfyRLFGKdYoxRol/uGBJHQqXRJOVJ5IQqfypiR0Knck4UTlTcUapVijFGuUi5cloVPpktAl4Q6VTuUkCZ1Kl4RO5Y4kdConKl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4QTlS4JnUqXhE6lS0Kn8k3FGqVYoxRrlIuHkvBNKp3KJyXhiSTcofJEsUYp1ijFGuXiZSpvSsIdSehUuiR0SThR6ZLQJeFEpUtCp/KmYo1SrFGKNcrFhyXhDpU7ktCpdEk4UemS0CXhRKVLQpeETqVLQqfyRLFGKdYoxRrl4sepdEnoVO5Q6ZLQqZyodEnoktCpvKlYoxRrlGKNcvHjktCp3JGETqVTOUlCp9KpnCShU3miWKMUa5RijXLxYSqfpHKShE6lUzlJQqfSqZwkoVPpVN5UrFGKNUqxRrl4WRK+KQknKidJ6FTuSEKnckcSOpUnijVKsUYp1ijxD2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/Ac1IjHgnVc3VAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 11,
+    "ProductID": 4,
+    "Quantity": 18,
+    "SaleDateTime": "2025-08-14T13:35:00.000Z",
+    "Product": {
+      "ProductID": 4,
+      "Name": "Milk - Updated",
+      "Description": "Fresh 1L Full Fat Milk - New Batch",
+      "NutritionalFacts": "Calories: 145, Protein: 8g, Fat: 7g",
+      "CategoryID": 1,
+      "Price": "30.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBsqdNMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qb0pCp9Il4ZtUnijWKMUapVijXLxM5U1JOElCp3KHyh0qb0rCm4o1SrFGKdYoFx+WhDtU7lDpktCpdEk4UbkjCXeofFKxRinWKMUapVijFGuUYo1SrFEuflwSTpLQqXRJmKRYoxRrlGKNcvFhKp+k8n9S+ZcUa5RijVKsUS5eloRvSkKn0iWhU3kiCf+yYo1SrFGKNUr8wyBJeELllxVrlGKNUqxRLh5KQqfSJaFT6ZLQqXRJ6FROVLoknKg8kYRO5SQJncqbijVKsUYp1igXD6m8KQmdyptU7khCp9KpnCThm4o1SrFGKdYoFw8l4U0qXRLuULkjCZ1Kp3KShE6lUzlJQqfyRLFGKdYoxRol/uGBJHQqXRJOVJ5IQqfypiR0Knck4UTlTcUapVijFGuUi5cloVPpktAl4Q6VTuUkCZ1Kl4RO5Y4kdConKl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4QTlS4JnUqXhE6lS0Kn8k3FGqVYoxRrlIuHkvBNKp3KJyXhiSTcofJEsUYp1ijFGuXiZSpvSsIdSehUuiR0SThR6ZLQJeFEpUtCp/KmYo1SrFGKNcrFhyXhDpU7ktCpdEk4UemS0CXhRKVLQpeETqVLQqfyRLFGKdYoxRrl4sepdEnoVO5Q6ZLQqZyodEnoktCpvKlYoxRrlGKNcvHjktCp3JGETqVTOUlCp9KpnCShU3miWKMUa5RijXLxYSqfpHKShE6lUzlJQqfSqZwkoVPpVN5UrFGKNUqxRrl4WRK+KQknKidJ6FTuSEKnckcSOpUnijVKsUYp1ijxD2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/Ac1IjHgnVc3VAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 12,
+    "ProductID": 4,
+    "Quantity": 22,
+    "SaleDateTime": "2025-09-09T15:00:00.000Z",
+    "Product": {
+      "ProductID": 4,
+      "Name": "Milk - Updated",
+      "Description": "Fresh 1L Full Fat Milk - New Batch",
+      "NutritionalFacts": "Calories: 145, Protein: 8g, Fat: 7g",
+      "CategoryID": 1,
+      "Price": "30.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBsqdNMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qb0pCp9Il4ZtUnijWKMUapVijXLxM5U1JOElCp3KHyh0qb0rCm4o1SrFGKdYoFx+WhDtU7lDpktCpdEk4UbkjCXeofFKxRinWKMUapVijFGuUYo1SrFEuflwSTpLQqXRJmKRYoxRrlGKNcvFhKp+k8n9S+ZcUa5RijVKsUS5eloRvSkKn0iWhU3kiCf+yYo1SrFGKNUr8wyBJeELllxVrlGKNUqxRLh5KQqfSJaFT6ZLQqXRJ6FROVLoknKg8kYRO5SQJncqbijVKsUYp1igXD6m8KQmdyptU7khCp9KpnCThm4o1SrFGKdYoFw8l4U0qXRLuULkjCZ1Kp3KShE6lUzlJQqfyRLFGKdYoxRol/uGBJHQqXRJOVJ5IQqfypiR0Knck4UTlTcUapVijFGuUi5cloVPpktAl4Q6VTuUkCZ1Kl4RO5Y4kdConKl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4QTlS4JnUqXhE6lS0Kn8k3FGqVYoxRrlIuHkvBNKp3KJyXhiSTcofJEsUYp1ijFGuXiZSpvSsIdSehUuiR0SThR6ZLQJeFEpUtCp/KmYo1SrFGKNcrFhyXhDpU7ktCpdEk4UemS0CXhRKVLQpeETqVLQqfyRLFGKdYoxRrl4sepdEnoVO5Q6ZLQqZyodEnoktCpvKlYoxRrlGKNcvHjktCp3JGETqVTOUlCp9KpnCShU3miWKMUa5RijXLxYSqfpHKShE6lUzlJQqfSqZwkoVPpVN5UrFGKNUqxRrl4WRK+KQknKidJ6FTuSEKnckcSOpUnijVKsUYp1ijxD2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/Ac1IjHgnVc3VAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 13,
+    "ProductID": 4,
+    "Quantity": 10,
+    "SaleDateTime": "2025-10-29T08:00:00.000Z",
+    "Product": {
+      "ProductID": 4,
+      "Name": "Milk - Updated",
+      "Description": "Fresh 1L Full Fat Milk - New Batch",
+      "NutritionalFacts": "Calories: 145, Protein: 8g, Fat: 7g",
+      "CategoryID": 1,
+      "Price": "30.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBsqdNMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qb0pCp9Il4ZtUnijWKMUapVijXLxM5U1JOElCp3KHyh0qb0rCm4o1SrFGKdYoFx+WhDtU7lDpktCpdEk4UbkjCXeofFKxRinWKMUapVijFGuUYo1SrFEuflwSTpLQqXRJmKRYoxRrlGKNcvFhKp+k8n9S+ZcUa5RijVKsUS5eloRvSkKn0iWhU3kiCf+yYo1SrFGKNUr8wyBJeELllxVrlGKNUqxRLh5KQqfSJaFT6ZLQqXRJ6FROVLoknKg8kYRO5SQJncqbijVKsUYp1igXD6m8KQmdyptU7khCp9KpnCThm4o1SrFGKdYoFw8l4U0qXRLuULkjCZ1Kp3KShE6lUzlJQqfyRLFGKdYoxRol/uGBJHQqXRJOVJ5IQqfypiR0Knck4UTlTcUapVijFGuUi5cloVPpktAl4Q6VTuUkCZ1Kl4RO5Y4kdConKl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4QTlS4JnUqXhE6lS0Kn8k3FGqVYoxRrlIuHkvBNKp3KJyXhiSTcofJEsUYp1ijFGuXiZSpvSsIdSehUuiR0SThR6ZLQJeFEpUtCp/KmYo1SrFGKNcrFhyXhDpU7ktCpdEk4UemS0CXhRKVLQpeETqVLQqfyRLFGKdYoxRrl4sepdEnoVO5Q6ZLQqZyodEnoktCpvKlYoxRrlGKNcvHjktCp3JGETqVTOUlCp9KpnCShU3miWKMUa5RijXLxYSqfpHKShE6lUzlJQqfSqZwkoVPpVN5UrFGKNUqxRrl4WRK+KQknKidJ6FTuSEKnckcSOpUnijVKsUYp1ijxD2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/Ac1IjHgnVc3VAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 14,
+    "ProductID": 4,
+    "Quantity": 14,
+    "SaleDateTime": "2025-11-17T17:30:00.000Z",
+    "Product": {
+      "ProductID": 4,
+      "Name": "Milk - Updated",
+      "Description": "Fresh 1L Full Fat Milk - New Batch",
+      "NutritionalFacts": "Calories: 145, Protein: 8g, Fat: 7g",
+      "CategoryID": 1,
+      "Price": "30.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBsqdNMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qb0pCp9Il4ZtUnijWKMUapVijXLxM5U1JOElCp3KHyh0qb0rCm4o1SrFGKdYoFx+WhDtU7lDpktCpdEk4UbkjCXeofFKxRinWKMUapVijFGuUYo1SrFEuflwSTpLQqXRJmKRYoxRrlGKNcvFhKp+k8n9S+ZcUa5RijVKsUS5eloRvSkKn0iWhU3kiCf+yYo1SrFGKNUr8wyBJeELllxVrlGKNUqxRLh5KQqfSJaFT6ZLQqXRJ6FROVLoknKg8kYRO5SQJncqbijVKsUYp1igXD6m8KQmdyptU7khCp9KpnCThm4o1SrFGKdYoFw8l4U0qXRLuULkjCZ1Kp3KShE6lUzlJQqfyRLFGKdYoxRol/uGBJHQqXRJOVJ5IQqfypiR0Knck4UTlTcUapVijFGuUi5cloVPpktAl4Q6VTuUkCZ1Kl4RO5Y4kdConKl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4QTlS4JnUqXhE6lS0Kn8k3FGqVYoxRrlIuHkvBNKp3KJyXhiSTcofJEsUYp1ijFGuXiZSpvSsIdSehUuiR0SThR6ZLQJeFEpUtCp/KmYo1SrFGKNcrFhyXhDpU7ktCpdEk4UemS0CXhRKVLQpeETqVLQqfyRLFGKdYoxRrl4sepdEnoVO5Q6ZLQqZyodEnoktCpvKlYoxRrlGKNcvHjktCp3JGETqVTOUlCp9KpnCShU3miWKMUa5RijXLxYSqfpHKShE6lUzlJQqfSqZwkoVPpVN5UrFGKNUqxRrl4WRK+KQknKidJ6FTuSEKnckcSOpUnijVKsUYp1ijxD2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/Ac1IjHgnVc3VAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 15,
+    "ProductID": 4,
+    "Quantity": 9,
+    "SaleDateTime": "2025-12-24T11:10:00.000Z",
+    "Product": {
+      "ProductID": 4,
+      "Name": "Milk - Updated",
+      "Description": "Fresh 1L Full Fat Milk - New Batch",
+      "NutritionalFacts": "Calories: 145, Protein: 8g, Fat: 7g",
+      "CategoryID": 1,
+      "Price": "30.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBsqdNMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qb0pCp9Il4ZtUnijWKMUapVijXLxM5U1JOElCp3KHyh0qb0rCm4o1SrFGKdYoFx+WhDtU7lDpktCpdEk4UbkjCXeofFKxRinWKMUapVijFGuUYo1SrFEuflwSTpLQqXRJmKRYoxRrlGKNcvFhKp+k8n9S+ZcUa5RijVKsUS5eloRvSkKn0iWhU3kiCf+yYo1SrFGKNUr8wyBJeELllxVrlGKNUqxRLh5KQqfSJaFT6ZLQqXRJ6FROVLoknKg8kYRO5SQJncqbijVKsUYp1igXD6m8KQmdyptU7khCp9KpnCThm4o1SrFGKdYoFw8l4U0qXRLuULkjCZ1Kp3KShE6lUzlJQqfyRLFGKdYoxRol/uGBJHQqXRJOVJ5IQqfypiR0Knck4UTlTcUapVijFGuUi5cloVPpktAl4Q6VTuUkCZ1Kl4RO5Y4kdConKl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4QTlS4JnUqXhE6lS0Kn8k3FGqVYoxRrlIuHkvBNKp3KJyXhiSTcofJEsUYp1ijFGuXiZSpvSsIdSehUuiR0SThR6ZLQJeFEpUtCp/KmYo1SrFGKNcrFhyXhDpU7ktCpdEk4UemS0CXhRKVLQpeETqVLQqfyRLFGKdYoxRrl4sepdEnoVO5Q6ZLQqZyodEnoktCpvKlYoxRrlGKNcvHjktCp3JGETqVTOUlCp9KpnCShU3miWKMUa5RijXLxYSqfpHKShE6lUzlJQqfSqZwkoVPpVN5UrFGKNUqxRrl4WRK+KQknKidJ6FTuSEKnckcSOpUnijVKsUYp1ijxD2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/Ac1IjHgnVc3VAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 20,
+    "ProductID": 2,
+    "Quantity": 5,
+    "SaleDateTime": "2025-01-15T10:00:00.000Z",
+    "Product": {
+      "ProductID": 2,
+      "Name": "Test Product",
+      "Description": "A sample product",
+      "NutritionalFacts": "Calories: 100, Protein: 5g",
+      "CategoryID": 1,
+      "Price": "20.00",
+      "ExpiryDate": "2025-12-31T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALUSURBVO3BQW7gSAwEwSxC//9yro88NSBIMsZcRsQfrDGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUYo1y8VASfpPKHUk4UTlJwm9SeaJYoxRrlGKNcvEylTcl4SQJncqJyhMqb0rCm4o1SrFGKdYoFx9Lwh0qd6h0SehUuiScqNyRhDtUvlSsUYo1SrFGKdYoxRqlWKMUa5SLPy4JJ0noVLokTFKsUYo1SrFGufiYypdUTpLwJZV/SbFGKdYoxRrl4mVJ+E1J6FS+lIR/WbFGKdYoxRol/uB/JAknKn9ZsUYp1ijFGuXioSR0Kl0SOpUuCZ1Kl4RO5Y4knKg8kYRO5SQJncqbijVKsUYp1igXL0tCp9Il4SQJncodSehUnkhCp9KpnCThNxVrlGKNUqxR4g8+lIROpUvCl1ROktCp3JGETuWOJHQqTxRrlGKNUqxR4g8eSMKJSpeEE5WTJJyodEnoVO5IQqdyRxJOVN5UrFGKNUqxRrl4SOUOlTuScKJyonKShE7ljiR0KicqXyrWKMUapVijXPzjVE6S8IRKl4ROpUtCp9IloVPpktCpvKlYoxRrlGKNcvFQEn6TSqdyRxLuSMITSThJQqfyRLFGKdYoxRrl4mUqb0rCHUm4IwknKl0SuiScqHRJ6FTeVKxRijVKsUa5+FgS7lC5IwknKl0SOpUuCV0STlS6JHRJ6FS6JHQqTxRrlGKNUqxRLv44lS4JXRI6lROVLgmdyolKl4QuCZ3Km4o1SrFGKdYoF39cEjqVO5LQqXQqJ0noVDqVkyR0Kk8Ua5RijVKsUS4+pvIllZMkdCqdykkSOpVO5SQJnUqn8qZijVKsUYo1ysXLkvCbknCicpKETuWOJHQqdyShU3miWKMUa5RijRJ/sMYo1ijFGqVYoxRrlGKNUqxRijVKsUYp1ijFGqVYoxRrlGKNUqxRijXKf5GjJfLno0aCAAAAAElFTkSuQmCC"
+    }
+  },
+  {
+    "SaleID": 21,
+    "ProductID": 3,
+    "Quantity": 3,
+    "SaleDateTime": "2025-01-17T14:30:00.000Z",
+    "Product": {
+      "ProductID": 3,
+      "Name": "Test Product",
+      "Description": "A test product for price updates",
+      "NutritionalFacts": null,
+      "CategoryID": 1,
+      "Price": "50.00",
+      "ExpiryDate": "2025-12-31T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKlSURBVO3BQW7sWAwEwUxC979yjZdcPUCQuv3NYYT5wRqjWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoFw+pfFMSOpUuCZ3KHUnoVL4pCU8Ua5RijVKsUS5eloQ3qdyh0iWhU3kiCW9SeVOxRinWKMUa5eLDVO5Iwjcl4QmVO5LwScUapVijFGuUiz8uCScq/yfFGqVYoxRrlIs/TuUJlS4Jf1mxRinWKMUa5eLDkvBJSehUTpLwpiT8S4o1SrFGKdYoFy9T+SaVLgmdyolKl4QTlX9ZsUYp1ijFGsX8YBCVkyRMVqxRijVKsUa5eEilS8KJyicl4USlS0Kn0iXhRKVLQqdyRxKeKNYoxRqlWKNcvEzlJAknKl0STlQ6lS4JJyp3qJyodEk4UXlTsUYp1ijFGuXioSScqNyRhE7lJAmdSqdyRxLuSEKn8puKNUqxRinWKOYHL1I5SUKn0iXhTSpdEjqVNyXhNxVrlGKNUqxRzA8eUOmScKLSJaFTeSIJJyq/KQmfVKxRijVKsUYxP/jDVE6ScKJyRxLuULkjCU8Ua5RijVKsUS4eUvmmJDyh0iXhTSonSfikYo1SrFGKNcrFy5LwJpUnVLok3KHSJeEkCZ3KiUqXhCeKNUqxRinWKBcfpnJHEp5IQqdyh8odKl0SflOxRinWKMUa5WK4JJyo3KFyRxJOkvCmYo1SrFGKNcrFH5eETqVLQqdyRxI6lROVLgmdykkSnijWKMUapVijXHxYEn6Tyh1JuCMJncpJEjqVNxVrlGKNUqxRLl6m8k0qdyShU+lUuiScqHRJ6FROkvCmYo1SrFGKNYr5wRqjWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYo/wFPePD/3UhDKwAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 22,
+    "ProductID": 4,
+    "Quantity": 2,
+    "SaleDateTime": "2025-01-18T12:15:00.000Z",
+    "Product": {
+      "ProductID": 4,
+      "Name": "Milk - Updated",
+      "Description": "Fresh 1L Full Fat Milk - New Batch",
+      "NutritionalFacts": "Calories: 145, Protein: 8g, Fat: 7g",
+      "CategoryID": 1,
+      "Price": "30.99",
+      "ExpiryDate": "2025-05-01T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAALVSURBVO3BQa7jSAwFwXyE7n/lnL/kqgBBsqdNMCL+YY1RrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVijFGuUi4eS8E0qb0pCp9Il4ZtUnijWKMUapVijXLxM5U1JOElCp3KHyh0qb0rCm4o1SrFGKdYoFx+WhDtU7lDpktCpdEk4UbkjCXeofFKxRinWKMUapVijFGuUYo1SrFEuflwSTpLQqXRJmKRYoxRrlGKNcvFhKp+k8n9S+ZcUa5RijVKsUS5eloRvSkKn0iWhU3kiCf+yYo1SrFGKNUr8wyBJeELllxVrlGKNUqxRLh5KQqfSJaFT6ZLQqXRJ6FROVLoknKg8kYRO5SQJncqbijVKsUYp1igXD6m8KQmdyptU7khCp9KpnCThm4o1SrFGKdYoFw8l4U0qXRLuULkjCZ1Kp3KShE6lUzlJQqfyRLFGKdYoxRol/uGBJHQqXRJOVJ5IQqfypiR0Knck4UTlTcUapVijFGuUi5cloVPpktAl4Q6VTuUkCZ1Kl4RO5Y4kdConKl0SOpUnijVKsUYp1ijxDz8sCZ1Kl4QTlS4JnUqXhE6lS0Kn8k3FGqVYoxRrlIuHkvBNKp3KJyXhiSTcofJEsUYp1ijFGuXiZSpvSsIdSehUuiR0SThR6ZLQJeFEpUtCp/KmYo1SrFGKNcrFhyXhDpU7ktCpdEk4UemS0CXhRKVLQpeETqVLQqfyRLFGKdYoxRrl4sepdEnoVO5Q6ZLQqZyodEnoktCpvKlYoxRrlGKNcvHjktCp3JGETqVTOUlCp9KpnCShU3miWKMUa5RijXLxYSqfpHKShE6lUzlJQqfSqZwkoVPpVN5UrFGKNUqxRrl4WRK+KQknKidJ6FTuSEKnckcSOpUnijVKsUYp1ijxD2uMYo1SrFGKNUqxRinWKMUapVijFGuUYo1SrFGKNUqxRinWKMUapVij/Ac1IjHgnVc3VAAAAABJRU5ErkJggg=="
+    }
+  },
+  {
+    "SaleID": 23,
+    "ProductID": 5,
+    "Quantity": 6,
+    "SaleDateTime": "2025-02-01T09:00:00.000Z",
+    "Product": {
+      "ProductID": 5,
+      "Name": "Chocolate Bar",
+      "Description": "A delicious milk chocolate bar",
+      "NutritionalFacts": "Calories: 200, Protein: 3g, Fat: 10g",
+      "CategoryID": 1,
+      "Price": "2.99",
+      "ExpiryDate": "2025-12-31T00:00:00.000Z",
+      "StockQuantity": 100,
+      "QRCode": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHQAAAB0CAYAAABUmhYnAAAAAklEQVR4AewaftIAAAKlSURBVO3BQY7cQAwEwSxC//9yeo88NSBoNF7TjIg/WGMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRrl4qEkfJPKHUk4UTlJwjepPFGsUYo1SrFGufgwlU9KwpuS0KmcqHxSEj6pWKMUa5RijXLxsiTcoXJHEp5QeSIJd6i8qVijFGuUYo1yMZxKl4TJijVKsUYp1igXwyWhU+mS0Kn8y4o1SrFGKdYoFy9T+SaVLgldEjqVJ1R+k2KNUqxRijXKxYcl4TdT6ZLQqZwk4Tcr1ijFGqVYo8Qf/MOScKLyPynWKMUapVijXDyUhE6lS8InqXQqJ0k4UTlJwiepvKlYoxRrlGKNcvGQyh0qXRJOVO5IQqfSJaFLwh0qJ0noVL6pWKMUa5RijRJ/8EASTlSeSMIdKnckoVPpknCi8psUa5RijVKsUeIPvigJd6h0SehUuiS8SeUkCZ3KNxVrlGKNUqxR4g9elIRO5SQJd6g8kYRO5SQJncpJEk5UPqlYoxRrlGKNcvEylTtU7kjCicr/pFijFGuUYo1y8VASvkmlU+mScJKETqVLQqfSqXRJ+E2KNUqxRinWKBcfpvJJSThJQqfSJaFTOVE5ScKJSpeETuVNxRqlWKMUa5SLlyXhDpUnktCpdEnoVLokdCqdSpeELgl/U7FGKdYoxRrl4j+XhJMkdCqdSpeETuWbijVKsUYp1igXwyWhU+mS0Kl0SeiS0Kl0Kn9TsUYp1ijFGuXiZSpvUjlJQpeEkyScqJwkoVPpktCpfFKxRinWKMUa5eLDkvBNSThROUlCp3KShE6lU+mS0Km8qVijFGuUYo0Sf7DGKNYoxRqlWKMUa5RijVKsUYo1SrFGKdYoxRqlWKMUa5RijVKsUYo1yh+4fgXtc7T4cwAAAABJRU5ErkJggg=="
+    }
+  }
+]
