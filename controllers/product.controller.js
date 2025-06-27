@@ -158,7 +158,7 @@ const deleteProduct = async (req, res) => {
 
 const editProduct = async (req, res) => {
     const { id } = req.params;
-    const { Name, Description, NutritionalFacts, CategoryID, Quantity } = req.body;
+    const { Name, Description, NutritionalFacts, CategoryID, StockQuantity } = req.body;
 
     try {
         const product = await Product.findByPk(id);
@@ -171,7 +171,7 @@ const editProduct = async (req, res) => {
         product.Description = Description ?? product.Description;
         product.NutritionalFacts = NutritionalFacts ?? product.NutritionalFacts;
         product.CategoryID = CategoryID ?? product.CategoryID;
-        product.Quantity = Quantity ?? product.Quantity;
+        product.StockQuantity = StockQuantity ?? product.StockQuantity;
 
         await product.save();
 
