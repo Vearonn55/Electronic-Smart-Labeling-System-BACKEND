@@ -8,16 +8,25 @@ const app = express();
 const PORT = process.env.PORT || 5050;
 
 // Middleware
-// --- CORS (dev: allow all) ---
-app.use(cors({
-  origin: true,                  // reflect the Origin header (allows all origins)
-  credentials: true,             // allow cookies/authorization headers
-  methods: ['GET','POST','PUT','PATCH','DELETE','OPTIONS'],
-  allowedHeaders: ['Content-Type','Authorization']
-}));
 
-// Always handle OPTIONS
-app.options('*', cors());
+/** 1) CORS: allow absolutely everything in dev */
+app.use(cors()); // default = allow all origins, headers, methods
+
+/** 2) Force-allow every preflight before any routes */
+app.use((req, res, next) => {
+  if (req.method === 'OPTIONS') {
+    // Minimal headers so the browser is happy
+    const origin = req.headers.origin || '*';
+    res.setHeader('Access-Control-Allow-Origin', origin);
+    res.setHeader('Vary', 'Origin');
+    res.setHeader('Access-Control-Allow-Credentials', 'true');
+    res.setHeader('Access-Control-Allow-Methods', 'GET,POST,PUT,PATCH,DELETE,OPTIONS');
+    res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
+    return res.sendStatus(204); // never 404 on preflight
+  }
+  next();
+});
+
 
 app.use(bodyParser.json());
 
