@@ -8,7 +8,17 @@ const app = express();
 const PORT = process.env.PORT || 5050;
 
 // Middleware
-app.use(cors());
+// --- CORS (dev: allow all) ---
+app.use(cors({
+  origin: true,                  // reflect the Origin header (allows all origins)
+  credentials: true,             // allow cookies/authorization headers
+  methods: ['GET','POST','PUT','PATCH','DELETE','OPTIONS'],
+  allowedHeaders: ['Content-Type','Authorization']
+}));
+
+// Always handle OPTIONS
+app.options('*', cors());
+
 app.use(bodyParser.json());
 
 // Routes
